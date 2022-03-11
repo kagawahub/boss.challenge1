@@ -11,9 +11,23 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  font-weight: 700;
+  line-height: 1rem;
+  background: hsl(303, 10%, 53%);
+  padding: 1rem;
+  width: 21rem;
+  margin-left: 1.2rem;
+  margin-bottom: 7px;
+  a {
+    color: hsl(300, 43%, 22%);
+  }
+  .attri-icons {
+    padding: 0.1rem 8px 5px 23px;
+    i {
+      height: 12px;
+      width: 12px;
+    }
+  }
 }
 
 //   Screen 375px
@@ -74,8 +88,7 @@ body {
       height: 17.5rem;
       width: 21rem;
       background: hsl(300, 43%, 22%);
-      // color: red;
-      margin: 15px 1rem;
+      margin: 15px 0rem 15px 1.2rem;
       border-radius: 7px;
 
       section {
@@ -83,16 +96,16 @@ body {
         padding: 2.5rem 0 0rem 2rem;
 
         .buyer-img {
-            img{
-                height: 3.4rem;
-                width: 3.4rem;
-                border-radius: 5rem;
-            }
+          img {
+            height: 3.4rem;
+            width: 3.4rem;
+            border-radius: 5rem;
+          }
         }
 
         .buyer-info {
           margin-left: 1.5rem;
-          margin-top: .3rem;
+          margin-top: 0.3rem;
           line-height: 1.5rem;
           h4 {
             color: white;
@@ -110,6 +123,27 @@ body {
         font-size: 13px;
         font-weight: 500;
       }
+    }
+  }
+}
+
+// screen 320px
+@media (max-width: 320px) {
+  .body-container {
+    .rated-container {
+      width: 18rem;
+      margin-left: 0.9rem;
+      font-size: 14px;
+    }
+
+    .buyer-container {
+      width: 18rem;
+      margin: 15px 1.2rem 15px 1rem;
+    }
+
+    .attribution {
+      width: 18rem;
+      margin-left: 1rem;
     }
   }
 }

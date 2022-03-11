@@ -13,10 +13,23 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  font-weight: 700;
+  line-height: 1rem;
+  background: #937b92;
+  padding: 1rem;
+  width: 21rem;
+  margin-left: 1.2rem;
+  margin-bottom: 7px;
 }
-
 .attribution a {
-  color: #3e52a3;
+  color: #502050;
+}
+.attribution .attri-icons {
+  padding: 0.1rem 8px 5px 23px;
+}
+.attribution .attri-icons i {
+  height: 12px;
+  width: 12px;
 }
 
 @media (max-width: 375px) {
@@ -68,7 +81,7 @@ body {
     height: 17.5rem;
     width: 21rem;
     background: #502050;
-    margin: 15px 1rem;
+    margin: 15px 0rem 15px 1.2rem;
     border-radius: 7px;
   }
   .body-container .buyer-container section {
@@ -97,6 +110,21 @@ body {
     line-height: 1.5rem;
     font-size: 13px;
     font-weight: 500;
+  }
+}
+@media (max-width: 320px) {
+  .body-container .rated-container {
+    width: 18rem;
+    margin-left: 0.9rem;
+    font-size: 14px;
+  }
+  .body-container .buyer-container {
+    width: 18rem;
+    margin: 15px 1.2rem 15px 1rem;
+  }
+  .body-container .attribution {
+    width: 18rem;
+    margin-left: 1rem;
   }
 }
 
