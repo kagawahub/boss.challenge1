@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+//   Screen 375px
+@media (max-width: 375px) {
+  .body-container {
+    background: white;
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 5rem 15px 1rem 15px;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      color: hsl(300, 43%, 22%);
+    }
+
+    .paragraph {
+      text-align: center;
+      font-size: 15px;
+      padding: 0 15px 1.7rem 17px;
+      line-height: 1.6rem;
+      font-weight: 500;
+      color: hsl(303, 10%, 53%);
+    }
+
+    .rated-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      padding: 1rem 3rem;
+      border-radius: 7px;
+      background: hsl(300, 24%, 96%);
+      color: hsl(300, 43%, 22%);
+      width: 21rem;
+      margin-bottom: 1rem;
+      margin-left: 1.2rem;
+      font-weight: 500;
+
+      .stars {
+        padding-bottom: 7px;
+        img {
+          padding: 0 1px 0 1px;
+        }
+      }
+
+      //   .rated-item {
+      //   }
+    }
+
+    .buyer-container {
+      display: flex;
+      flex-direction: column;
+      height: 17.5rem;
+      width: 21rem;
+      background: hsl(300, 43%, 22%);
+      // color: red;
+      margin: 15px 1rem;
+      border-radius: 7px;
+
+      section {
+        display: flex;
+        padding: 2.5rem 0 0rem 2rem;
+
+        .buyer-img {
+            img{
+                height: 3.4rem;
+                width: 3.4rem;
+                border-radius: 5rem;
+            }
+        }
+
+        .buyer-info {
+          margin-left: 1.5rem;
+          margin-top: .3rem;
+          line-height: 1.5rem;
+          h4 {
+            color: white;
+          }
+          p {
+            color: hsl(333, 80%, 67%);
+          }
+        }
+      }
+
+      .buyer-text {
+        color: white;
+        padding: 2rem;
+        line-height: 1.5rem;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
+}
