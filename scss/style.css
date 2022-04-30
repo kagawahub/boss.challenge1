@@ -18,8 +18,8 @@ body {
   background: #937b92;
   padding: 1rem;
   width: 21rem;
-  margin-left: 1.2rem;
   margin-bottom: 7px;
+  margin-top: 15px;
 }
 .attribution a {
   color: #502050;
@@ -32,100 +32,85 @@ body {
   width: 12px;
 }
 
-@media (max-width: 375px) {
-  .body-container {
-    background: white;
-  }
-  .body-container header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5rem 15px 1rem 15px;
-    font-size: 1rem;
-    line-height: 2.5rem;
-    color: #502050;
-  }
-  .body-container .paragraph {
-    text-align: center;
-    font-size: 15px;
-    padding: 0 15px 1.7rem 17px;
-    line-height: 1.6rem;
-    font-weight: 500;
-    color: #937b92;
-  }
-  .body-container .rated-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 3rem;
-    border-radius: 7px;
-    background: #f7f2f7;
-    color: #502050;
-    width: 21rem;
-    margin-bottom: 1rem;
-    margin-left: 1.2rem;
-    font-weight: 500;
-  }
-  .body-container .rated-container .stars {
-    padding-bottom: 7px;
-  }
-  .body-container .rated-container .stars img {
-    padding: 0 1px 0 1px;
-  }
-  .body-container .buyer-container {
-    display: flex;
-    flex-direction: column;
-    height: 17.5rem;
-    width: 21rem;
-    background: #502050;
-    margin: 15px 0rem 15px 1.2rem;
-    border-radius: 7px;
-  }
-  .body-container .buyer-container section {
-    display: flex;
-    padding: 2.5rem 0 0rem 2rem;
-  }
-  .body-container .buyer-container section .buyer-img img {
-    height: 3.4rem;
-    width: 3.4rem;
-    border-radius: 5rem;
-  }
-  .body-container .buyer-container section .buyer-info {
-    margin-left: 1.5rem;
-    margin-top: 0.3rem;
-    line-height: 1.5rem;
-  }
-  .body-container .buyer-container section .buyer-info h4 {
-    color: white;
-  }
-  .body-container .buyer-container section .buyer-info p {
-    color: #ee68a4;
-  }
-  .body-container .buyer-container .buyer-text {
-    color: white;
-    padding: 2rem;
-    line-height: 1.5rem;
-    font-size: 13px;
-    font-weight: 500;
-  }
+.body-container {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1rem;
 }
-@media (max-width: 320px) {
-  .body-container .rated-container {
-    width: 18rem;
-    margin-left: 0.9rem;
-    font-size: 14px;
-  }
-  .body-container .buyer-container {
-    width: 18rem;
-    margin: 15px 1.2rem 15px 1rem;
-  }
-  .body-container .attribution {
-    width: 18rem;
-    margin-left: 1rem;
-  }
+.body-container header {
+  text-align: center;
+  padding: 5rem 15px 1rem 15px;
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: #502050;
+}
+.body-container .paragraph {
+  text-align: center;
+  font-size: 15px;
+  padding: 0 15px 1.7rem 17px;
+  line-height: 1.6rem;
+  font-weight: 500;
+  color: #937b92;
+}
+.body-container .rated-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  border-radius: 7px;
+  background: #f7f2f7;
+  color: #502050;
+  width: 21rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.body-container .rated-container .stars {
+  padding-bottom: 7px;
+}
+.body-container .rated-container .stars img {
+  padding: 0 1px 0 1px;
+}
+.body-container .space {
+  margin-bottom: 0.3rem;
+  opacity: 0;
+}
+.body-container .buyer-container {
+  height: 17.5rem;
+  width: 21rem;
+  background: #502050;
+  margin-top: 1rem;
+  border-radius: 7px;
+}
+.body-container .buyer-container section {
+  display: flex;
+  padding: 2.5rem 0 0rem 2rem;
+}
+.body-container .buyer-container section .buyer-img img {
+  height: 3.4rem;
+  width: 3.4rem;
+  border-radius: 5rem;
+}
+.body-container .buyer-container section .buyer-info {
+  margin-left: 1.5rem;
+  margin-top: 0.3rem;
+  line-height: 1.5rem;
+}
+.body-container .buyer-container section .buyer-info h4 {
+  color: white;
+}
+.body-container .buyer-container section .buyer-info p {
+  color: #ee68a4;
+}
+.body-container .buyer-container .buyer-text {
+  color: white;
+  padding: 2rem;
+  line-height: 1.5rem;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

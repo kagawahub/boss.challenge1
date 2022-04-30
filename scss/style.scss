@@ -16,8 +16,8 @@ body {
   background: hsl(303, 10%, 53%);
   padding: 1rem;
   width: 21rem;
-  margin-left: 1.2rem;
   margin-bottom: 7px;
+  margin-top: 15px;
   a {
     color: hsl(300, 43%, 22%);
   }
@@ -30,16 +30,15 @@ body {
   }
 }
 
-//   Screen 375px
-@media (max-width: 375px) {
   .body-container {
     background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
 
     header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
       text-align: center;
       padding: 5rem 15px 1rem 15px;
       font-size: 1rem;
@@ -68,7 +67,6 @@ body {
       color: hsl(300, 43%, 22%);
       width: 21rem;
       margin-bottom: 1rem;
-      margin-left: 1.2rem;
       font-weight: 500;
 
       .stars {
@@ -77,18 +75,19 @@ body {
           padding: 0 1px 0 1px;
         }
       }
-
-      //   .rated-item {
-      //   }
     }
 
+    .space{
+      margin-bottom: .3rem;
+      opacity: 0;
+    }
+    
+
     .buyer-container {
-      display: flex;
-      flex-direction: column;
       height: 17.5rem;
       width: 21rem;
       background: hsl(300, 43%, 22%);
-      margin: 15px 0rem 15px 1.2rem;
+      margin-top: 1rem;
       border-radius: 7px;
 
       section {
@@ -124,47 +123,4 @@ body {
         font-weight: 500;
       }
     }
-    .attribution {
-  font-size: 11px;
-  text-align: center;
-  font-weight: 700;
-  line-height: 1rem;
-  background: hsl(303, 10%, 53%);
-  padding: 1rem;
-  width: 21rem;
-  margin-left: 1.2rem;
-  margin-bottom: 7px;
-  a {
-    color: hsl(300, 43%, 22%);
-  }
-  .attri-icons {
-    padding: 0.1rem 8px 5px 23px;
-    i {
-      height: 12px;
-      width: 12px;
-    }
-  }
-}
-  }
-}
-
-// screen 320px
-@media (max-width: 320px) {
-  .body-container {
-    .rated-container {
-      width: 18rem;
-      margin-left: 0.9rem;
-      font-size: 14px;
-    }
-
-    .buyer-container {
-      width: 18rem;
-      margin: 15px 1.2rem 15px 1rem;
-    }
-
-    .attribution {
-      width: 18rem;
-      margin-left: 1rem;
-    }
-  }
 }
